@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModularityWithUnityDemo", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularityWithUnityDemo.Desktop", "ModularityWithUnityDemo.Desktop\ModularityWithUnityDemo.Desktop.csproj", "{7D1FF2D6-169A-414F-AACD-0D26D06E9036}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleTracking", "ModuleTracking\ModuleTracking.csproj", "{F7BA8CBD-CB60-415C-8ABD-AD966CC8DDCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{7D1FF2D6-169A-414F-AACD-0D26D06E9036}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D1FF2D6-169A-414F-AACD-0D26D06E9036}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D1FF2D6-169A-414F-AACD-0D26D06E9036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BA8CBD-CB60-415C-8ABD-AD966CC8DDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BA8CBD-CB60-415C-8ABD-AD966CC8DDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BA8CBD-CB60-415C-8ABD-AD966CC8DDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BA8CBD-CB60-415C-8ABD-AD966CC8DDCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

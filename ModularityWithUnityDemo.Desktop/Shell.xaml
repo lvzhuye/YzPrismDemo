@@ -35,5 +35,6 @@
             <local:ModuleControl VerticalAlignment="Top" DataContext="{Binding ModuleATrackingState}" Height="100" Width="100" Canvas.Top="22" Canvas.Left="122" RequestModuleLoad="ModuleB_RequestModuleLoad"  Style="{StaticResource ModuleControlStyle-Simple}" AutomationProperties.AutomationId="ModuleBAutomationId"/>
             <local:ModuleControl VerticalAlignment="Top" DataContext="{Binding ModuleCTrackingState}" Height="100" Width="100" Canvas.Top="22" Canvas.Left="257" RequestModuleLoad="ModuleC_RequestModuleLoad" Style="{StaticResource ModuleControlStyle-Simple}" AutomationProperties.AutomationId="ModuleCAutomationId"/>
         </Canvas>
+        <TextBox x:Name="TrackTextBox" Grid.ColumnSpan="2" Margin="10,0,10,10" TextWrapping="Wrap" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" Grid.Row="2" MinHeight="200"/>
     </Grid>
 </Window>

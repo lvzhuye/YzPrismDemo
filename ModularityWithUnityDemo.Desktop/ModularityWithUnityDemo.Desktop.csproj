@@ -93,12 +93,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AggregateModuleCatalog.cs" />
+    <Compile Include="CallBackLogger.cs" />
     <Compile Include="DiscoveryMethod.cs" />
     <Compile Include="DownLoadTiming.cs" />
     <Compile Include="ModuleControl.xaml.cs">
       <DependentUpon>ModuleControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="ModuleInitializationStatus.cs" />
+    <Compile Include="ModuleTracker.cs" />
     <Compile Include="ModuleTrackingState.cs" />
     <Compile Include="QuickStartBootstrapper.cs" />
     <Compile Include="App.xaml.cs">
@@ -148,6 +151,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModuleTracking\ModuleTracking.csproj">
+      <Project>{f7ba8cbd-cb60-415c-8abd-ad966cc8ddce}</Project>
+      <Name>ModuleTracking</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
